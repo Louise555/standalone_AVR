@@ -9,6 +9,7 @@ BOSS_SITE = "http://www.cartalk.com/content/boss-redirect"
 XKCD = "http://xkcd.com/353/"
 
 SERIAL_PORT = "com5"
+##  for mac use "/dev/ttyUSB0" 
 BAUD_RATE = 9600
 
 import serial
