@@ -15,7 +15,7 @@ while True: # While loop that loops forever
         pass #do nothing
     arduinoString = arduinoData.readline()  #read the line of text from the serial port
     print 'reading ', arduinoString
-    print 'float',float(arduinoString)
+    #print 'float',float(arduinoString)
     j=j+1
 
 

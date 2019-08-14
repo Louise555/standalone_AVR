@@ -47,10 +47,9 @@ int main(void) {
  
    printWord(adcValue); // we write that value to the serial monitor. it can be also catched by a python program in the same folder. 
    
-    printString("\r\n"); // skip lines. 
+  //  printString("\r\n"); // skip lines. 
     ledValue=(adcValue>>7); // we turn that 10 bits value into a 3 bits value by keeping only the 3 highest bits. So from a valye between 0 to 1023 
                            // we keep a value between 0 and 7. 7 is 5V. So it is an approximation. 
-    printString("\r\n");
     _delay_ms(2000);
   }                                                  /* End event loop */
   return 0;                            /* This line is never reached */
